@@ -12,7 +12,7 @@
 
 <body>
 
-<div style="border: #b4b4b4 solid; border-width: 0 1px 1px; color: #000; display: block; font-family: Arial, sans; font-size: 14px; margin: 0 auto 40px auto; padding: 0 0 40px 0; width: <?php echo $width?>px;">
+<div style="border: #b4b4b4 solid; border-width: 1px; color: #000; display: block; font-family: Arial, sans; font-size: 14px; margin: 35px auto 40px auto; padding: 35px 0; width: <?php echo $width?>px;">
 	<table border="0" cellpadding="0" style="background: transparent url(<?php echo $images_path ?>/separator.jpg) no-repeat left bottom; font-size: 14px; padding: 0 0 20px 0; width:<?php echo $table_width; ?>;">
 		<tbody>
 			<tr>
@@ -30,10 +30,10 @@
 			</tr>
 			<tr>
 				<td style="text-align: center;">
-					<a href="" style="color: #000; text-decoration: none;">o nas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
-					<a href="" style="color: #000; text-decoration: none;">inne aukcje</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
-					<a href="" style="color: #000; text-decoration: none;">komentarze</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
-					<a href="" style="color: #000; text-decoration: none;">dodaj do ulubionych</a>
+					<a href="#" style="color: #000; text-decoration: none;">o nas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+					<a href="#" style="color: #000; text-decoration: none;">inne aukcje</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+					<a href="#" style="color: #000; text-decoration: none;">komentarze</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+					<a href="#" style="color: #000; text-decoration: none;">dodaj do ulubionych</a>
 				</td>
 			</tr>
 		</tbody>
@@ -47,10 +47,10 @@
 					<br /><br />
 					<img src="<?php echo $images_path ?>/butterfly_2.jpg" alt="Creative Farm" />
 				</td>
-				<td width="440" valign="top">
-					<h2 style="font-size: 24px;">Motyl Papylo Ulysses w gablocie</h2>
-					<h3 style="font-size: 16px;">Cena motyla w gablocie: 150 zł</h3>
-					
+				<td width="440" valign="top"  style="padding: 25px 0 0">
+					<h2 style="color: #000; font-size: 24px; font-family: Arial, sans; font-weight: bold;">Motyl Papylo Ulysses w gablocie</h2>
+					<h3 style="color: #000; font-size: 16px; font-family: Arial, sans; font-weight: bold;">Cena motyla w gablocie: 150 zł</h3>
+					<br/>
 					<p>Wymiary gabloty: 32×26 cm<br/>
 					Rozpiętość skrzydeł: ok. 14 cm<br/>
 					Występowanie: Australazja (Australia, Nowa Zelandia, Nowa Gwinea)<br/>
@@ -111,12 +111,24 @@
 					<img src="<?php echo $images_path ?>/who_is_creativefarm.jpg" alt="Creative Farm" />	
 				</td>
 				<td style="background: #3a432c; color: #fff; padding: 35px 35px 35px 50px">
-					<p>Jesteśmy niewielką, rodzinną firmą. Łączymy kobiecy gust i wyczucie piękna oraz męska dokładność<br/> 
-					i konstruktorskie wykształcenie. Unikatowe pomysły i realizacje prezentujemy na naszej stronie.</p>
-					<p>Tworzymy rzeczy niebanalne, łączące w sobie style z pogranicza wiejskiej rezydencji i nowoczesnego designu.<br/> 
-					Pragniemy stać się inspiracją dla wyjątkowych osób i wspólnie z Państwem odmieniać domową przestrzeń.<br/>  
-					Dokładamy starań aby nasze produkty zaspokoiły najbardziej wymagających klientów a marka Crative Farm była<br/>  
-					synonimem unikalności i kreatywności.</p>
+					<p>Jesteśmy niewielką, rodzinną firmą. Łączymy kobiecy gust i wyczucie piękna oraz męska dokładność i konstruktorskie wykształcenie. Unikatowe pomysły i realizacje prezentujemy na naszej stronie.</p>
+					<br/>
+					<p>Tworzymy rzeczy niebanalne, łączące w sobie style z pogranicza wiejskiej rezydencji i nowoczesnego designu. Pragniemy stać się inspiracją dla wyjątkowych osób i wspólnie z Państwem odmieniać domową przestrzeń. Dokładamy starań aby nasze produkty zaspokoiły najbardziej wymagających klientów a marka Crative Farm była synonimem unikalności i kreatywności.</p>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	
+	<table border="0" cellpadding="0" style="font-size: 12px; padding: 25px 35px 0 35px; width:<?php echo $table_width; ?>;">
+		<tbody>
+			<tr>
+				<td align="center">
+					<b style="font-size: 24px; font-family: Arial, sans;">Zobacz inne nasze aukcje!</b>
+				</td>
+			</tr>
+			<tr>
+				<td align="center">
+					[other offers here]
 				</td>
 			</tr>
 		</tbody>
