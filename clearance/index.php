@@ -30,10 +30,10 @@
 			</tr>
 			<tr>
 				<td style="text-align: center;">
-					<a href="#" style="color: #000; text-decoration: none;">o nas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
-					<a href="#" style="color: #000; text-decoration: none;">inne aukcje</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
-					<a href="#" style="color: #000; text-decoration: none;">komentarze</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
-					<a href="#" style="color: #000; text-decoration: none;">dodaj do ulubionych</a>
+					<a href="/my_page.php?uid=<?php echo $uid ?>" style="color: #000; text-decoration: none;">o nas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+					<a href="/show_user_auctions.php?uid=<?php echo $uid ?>" style="color: #000; text-decoration: none;">inne aukcje</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+					<a href="/show_user.php?uid=<?php echo $uid ?>" style="color: #000; text-decoration: none;">komentarze</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+					<a href="/myaccount/favourites/favourites_sellers.php/addNew/?userId=<?php echo $uid ?>" style="color: #000; text-decoration: none;">dodaj do ulubionych</a>
 				</td>
 			</tr>
 		</tbody>
@@ -128,7 +128,7 @@
 			</tr>
 			<tr>
 				<td align="center">
-					[other offers here]
+					<a href="/show_user_auctions.php?uid=<?php echo $uid ?>" style="color: #000; text-decoration: none;">inne aukcje</a>
 				</td>
 			</tr>
 		</tbody>
