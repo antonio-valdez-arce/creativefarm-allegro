@@ -2,9 +2,12 @@
     $host = 'http://localhost/creativefarm-allegro/clearance';
     $images_path = $host . '/img';
     
+    $host = 'http://creativefarm.com.pl';
+    $images_path = $host . '/allegro/clearance/img';
+    
     $width = 960;
     $table_width = '100%';
-    $uid = 0000;
+    $uid = 38828760;
     $url_complaints = '#';
 ?>
 <!DOCTYPE html>
