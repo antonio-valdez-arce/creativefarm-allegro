@@ -26,7 +26,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="creativefarm.com.pl" style="color: #000; text-decoration: none">
+					<a href="http://creativefarm.com.pl" style="color: #000; text-decoration: none">
 						<img src="<?php echo $images_path ?>/header_logo.jpg" alt="Creative Farm" />
 					</a>
 				</td>
@@ -131,7 +131,9 @@
 			</tr>
 			<tr>
 				<td align="center">
-					<a href="/show_user_auctions.php?uid=<?php echo $uid ?>" style="color: #000; text-decoration: none;">inne aukcje</a>
+					<a href="/show_user_auctions.php?uid=<?php echo $uid ?>" style="color: #000; display: block; margin: 20px 0 0; text-decoration: none;">
+						<img src="<?php echo $images_path ?>/other_offers.jpg" alt="inne aukcje" />
+					</a>
 				</td>
 			</tr>
 		</tbody>
